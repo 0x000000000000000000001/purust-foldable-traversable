@@ -1,4 +1,8 @@
-pub fn Data_Foldable_foldrArray(mut f: purust_core::Func2<crate::UnknownType, crate::UnknownType, crate::UnknownType>, mut init: crate::UnknownType, mut xs: crate::UnknownType) -> crate::UnknownType {
+pub fn Data_Foldable_foldrArray(
+    f: purust_core::Func2<UnknownType, UnknownType, UnknownType>,
+    init: UnknownType,
+    xs: UnknownType,
+) -> UnknownType {
     let arr = xs.unwrap_array();
     let mut acc = init;
     for item in arr.iter().rev() {
@@ -7,7 +11,11 @@ pub fn Data_Foldable_foldrArray(mut f: purust_core::Func2<crate::UnknownType, cr
     acc
 }
 
-pub fn Data_Foldable_foldlArray(mut f: purust_core::Func2<crate::UnknownType, crate::UnknownType, crate::UnknownType>, mut init: crate::UnknownType, mut xs: crate::UnknownType) -> crate::UnknownType {
+pub fn Data_Foldable_foldlArray(
+    f: purust_core::Func2<UnknownType, UnknownType, UnknownType>,
+    init: UnknownType,
+    xs: UnknownType,
+) -> UnknownType {
     let arr = xs.unwrap_array();
     let mut acc = init;
     for item in arr.iter() {

@@ -1,0 +1,59 @@
+Test foldableArray instance
+Test foldableArray instance is stack safe
+Test foldMapDefaultL
+Test foldMapDefaultL is stack safe
+Test foldMapDefaultR
+Test foldMapDefaultR is stack safe
+Test foldlDefault
+Test foldlDefault is stack safe
+Test foldrDefault
+Test foldrDefault is stack safe
+Test traversableArray instance with an array of size: 1
+Test traversableArray instance with an array of size: 2
+Test traversableArray instance with an array of size: 3
+Test traversableArray instance with an array of size: 4
+Test traversableArray instance with an array of size: 5
+Test traversableArray instance with an array of size: 10
+Test traversableArray instance with an array of size: 20
+Test traversableArray instance is stack safe
+Test traverseDefault
+Test sequenceDefault
+Test foldableWithIndexArray instance
+Test foldableWithIndexArray instance is stack safe
+Test FoldableWithIndex laws for array instance
+Test traversableArrayWithIndex instance
+Test Bifoldable on `inclusive or`
+Test bifoldMapDefaultL
+Test bifoldMapDefaultR
+Test bifoldlDefault
+Test bifoldrDefault
+Test Bitraversable on `inclusive or`
+Test bitraverseDefault
+Test bisequenceDefault
+Test indexl
+Test indexr
+Test find
+Test findWithIndex
+Test findMap
+Test findMapWithIndex
+Test maximum
+Test maximumBy
+Test minimum
+Test minimumBy
+Test null
+Test length
+Test surroundMap
+Test surroundMapWithIndex
+Test Foldable1 defaults
+Test maximumBy
+Test minimumBy
+All done!
+[OK] empty folds and traversals
+[OK] fold direction and indexed callbacks
+[OK] balanced traversal: deferred effects, left-to-right order and replay
+[OK] array applicative Cartesian order
+[OK] failed traversal stops later effects and can be replayed
+[OK] traversal accumulation and scan directions
+[OK] indexed accumulation and scans
+[OK] Traversable1 instances and defaults
+Additional Foldable/Traversable checks passed
