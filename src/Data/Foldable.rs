@@ -1,3 +1,4 @@
+#[inline]
 pub fn Data_Foldable_foldrArray(
     f: purust_core::Func2<UnknownType, UnknownType, UnknownType>,
     init: UnknownType,
@@ -11,6 +12,7 @@ pub fn Data_Foldable_foldrArray(
     acc
 }
 
+#[inline]
 pub fn Data_Foldable_foldlArray(
     f: purust_core::Func2<UnknownType, UnknownType, UnknownType>,
     init: UnknownType,
